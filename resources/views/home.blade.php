@@ -77,8 +77,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper__nav--btn swiper-button-next"></div>
-                <div class="swiper__nav--btn swiper-button-prev"></div>
+                {{-- <div class="swiper__nav--btn swiper-button-prev"></div>
+                <div class="swiper__nav--btn swiper-button-next"></div> --}}
             </div>
         </section>
         <!-- End slider section -->
