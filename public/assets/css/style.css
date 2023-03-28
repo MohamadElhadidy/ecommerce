@@ -2706,7 +2706,7 @@ body.overlay__active::before,
 
 .header__discount--icon__img {
   vertical-align: middle;
-  margin-right: 0.4rem;
+  margin-left: 0.4rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2780,7 +2780,7 @@ body.overlay__active::before,
 .dropdown__language {
   position: absolute;
   z-index: 9;
-  width: 100px;
+  width: 150px;
   -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   top: 100%;
@@ -2805,7 +2805,7 @@ body.overlay__active::before,
 .language__text {
   display: block;
   font-size: 1.4rem;
-  padding: 10px 14px;
+  padding: 10px 1px;
   background: var(--gray-color2);
   border-bottom: 1px solid var(--border-color2);
 }
@@ -2996,7 +2996,8 @@ body.overlay__active::before,
   border: 0;
   border-left: 1px solid var(--border-color);
   height: 5rem;
-  padding: 0 7rem 0 2.2rem;
+  padding: 0 2.2rem 0 7rem;
+
   font-size: 1.5rem;
   color: var(--text-gray-color);
 }
@@ -3007,14 +3008,14 @@ body.overlay__active::before,
 
 @media only screen and (min-width: 1200px) {
   .header__search--input {
-    padding: 0 7rem 0 2.2rem;
+    padding: 0 2.2rem 0 7rem;
   }
 }
 
 .header__search--button {
   position: absolute;
   top: -1px;
-  right: -1px;
+  left: -1px;
   height: 102%;
   border: 0;
   padding: 0 1.5rem;
@@ -3027,28 +3028,28 @@ body.overlay__active::before,
 }
 
 .header__account--items {
-  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 .header__account--items:last-child {
-  margin-right: 0;
+  margin-left: 0;
 }
 
 @media only screen and (min-width: 992px) {
   .header__account--items {
-    margin-right: 2rem;
+    margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .header__account--items {
-    margin-right: 3rem;
+    margin-left: 1.3rem;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .header__account--items {
-    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
 
@@ -3294,31 +3295,31 @@ body.overlay__active::before,
 }
 
 .header__menu--items {
-  margin-right: 3rem;
+  margin-left: 1rem;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) {
   .header__menu--items {
-    margin-right: 2.5rem;
+    margin-left: 1em;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .header__menu--items {
-    margin-right: 3rem;
+    margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 1366px) {
   .header__menu--items {
-    margin-right: 4rem;
+    margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .header__menu--items {
-    margin-right: 6rem;
+    margin-left: 6rem;
   }
 }
 
@@ -3327,30 +3328,30 @@ body.overlay__active::before,
 }
 
 .header__menu--items.style2 {
-  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 @media only screen and (min-width: 992px) {
   .header__menu--items.style2 {
-    margin-right: 2.5rem;
+    margin-left: 2.5rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .header__menu--items.style2 {
-    margin-right: 3rem;
+    margin-left: 3rem;
   }
 }
 
 @media only screen and (min-width: 1366px) {
   .header__menu--items.style2 {
-    margin-right: 3.5rem;
+    margin-left: 3.5rem;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .header__menu--items.style2 {
-    margin-right: 5rem;
+    margin-left: 5rem;
   }
 }
 
@@ -6997,7 +6998,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: 0.2rem;
   width: 6rem;
   background: #909090;
-  left: 0;
+  right: 0;
   bottom: 0;
 }
 

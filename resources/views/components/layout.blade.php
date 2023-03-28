@@ -17,8 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700&display=swap" rel="stylesheet">
-        {{-- @vite('resources/css/app.css') --}}
-
+        @vite('resources/css/app.css')
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Plugin css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom Style CSS -->
@@ -30,10 +30,17 @@
         body {
             font-family: 'Alexandria', sans-serif;
         }
+        svg, img{
+            display: initial;
+        }
+
+        .header__menu--link{
+            font-size: 1.5rem;
+        }
     </style>
 </head>
 
-<body>
+<body class="containter">
 
     <!-- Start preloader -->
     <div id="preloader">
