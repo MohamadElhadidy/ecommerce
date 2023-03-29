@@ -340,6 +340,12 @@ a:hover {
   color: var(--secondary-color);
 }
 
+.header__shipping--text a:hover {
+  color: black;
+}
+
+
+
 button,
 input[type="submit"] {
   cursor: pointer;
@@ -2359,7 +2365,7 @@ body.overlay__active::before,
 .offcanvas__sub_menu_item {
   line-height: 1;
   display: block;
-  padding: 15px 0 15px 30px;
+  padding: 15px 30px 15px 0px;
 }
 
 .offcanvas__sub_menu_item ~ .offcanvas__sub_menu .offcanvas__sub_menu_item {
@@ -2371,7 +2377,7 @@ body.overlay__active::before,
   position: absolute;
   z-index: 9;
   top: 0;
-  right: 0;
+  left: 0;
   width: 4rem;
   height: 4.6rem;
   padding: 0;
@@ -2432,7 +2438,7 @@ body.overlay__active::before,
 .offcanvas__dropdown--language {
   position: absolute;
   z-index: 9;
-  width: 100px;
+  width: 150px;
   -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   bottom: 100%;
@@ -2580,18 +2586,18 @@ body.overlay__active::before,
 }
 
 .header__topbar {
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 @media only screen and (min-width: 992px) {
   .header__topbar {
-    padding: 1.2rem 0;
+    padding: .5rem 0;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .header__topbar {
-    padding: 1.7rem 0;
+    padding: .5rem 0;
   }
 }
 
@@ -2662,7 +2668,7 @@ body.overlay__active::before,
   width: 0.1rem;
   height: 100%;
   background: var(--white-color);
-  right: 0;
+  left: 0;
   top: 50%;
   -webkit-transform: translatey(-50%);
           transform: translatey(-50%);
@@ -2722,7 +2728,7 @@ body.overlay__active::before,
 }
 
 .language__currency--list:last-child {
-  margin-right: 0;
+  /* margin-right: 0; */
   padding-right: 0;
 }
 
@@ -3916,30 +3922,30 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .hero__slider--items__inner {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 
 @media only screen and (min-width: 768px) {
   .hero__slider--items__inner {
-    padding: 6rem 0;
+    padding: 20rem 0;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .hero__slider--items__inner {
-    padding: 6.5rem 0;
+    padding: 25rem 0;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .hero__slider--items__inner {
-    padding: 7rem 0;
+    padding: 30rem 0;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .hero__slider--items__inner {
-    padding: 14.7rem 0;
+    padding: 30rem 0;
   }
 }
 
@@ -7327,9 +7333,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-right: 1rem;
 }
 
-.footer__menu--style3 .footer__widget--menu__text {
+/* .footer__menu--style3 .footer__widget--menu__text {
   color: var(--black-color);
-}
+} */
 
 .footer__menu--style3 .footer__widget--menu__text:hover {
   color: var(--secondary-color);

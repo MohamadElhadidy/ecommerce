@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Suruchi - Fashion eCommerce HTML Template - shared on themelock.com</title>
+    <title>عطور العربية للعود | أفضل أنواع العطور الشرقية والغربية  في السعودية</title>
     <meta name="description" content="Morden Bootstrap HTML5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
@@ -17,8 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@700&display=swap" rel="stylesheet">
-        @vite('resources/css/app.css')
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    @vite('resources/css/app.css')
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Plugin css -->
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- Custom Style CSS -->
@@ -30,17 +30,19 @@
         body {
             font-family: 'Alexandria', sans-serif;
         }
-        svg, img{
+
+        svg,
+        img {
             display: initial;
         }
 
-        .header__menu--link{
-            font-size: 1.5rem;
+        .header__menu--link {
+            font-size: 1.3rem;
         }
     </style>
 </head>
 
-<body class="containter">
+<body>
 
     <!-- Start preloader -->
     <div id="preloader">
@@ -54,7 +56,7 @@
         </div>
     </div>
 
-    <x-header />
+    <x-header.layout />
     <!-- End preloader -->
     <main class="main__content_wrapper">
         {{ $slot }}
@@ -78,6 +80,58 @@
 
     <!-- Customscript js -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper_sales", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is <= 499px
+                450: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 0
+                },
+                700: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 0
+                },
+
+                // when window width is <= 999px
+                1600: {
+                    slidesPerView: 4,
+                    spaceBetweenSlides: 0
+                }
+            }
+        });
+
+        var swiper2 = new Swiper(".swiper_category", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+             breakpoints: {
+                // when window width is <= 499px
+                450: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 0
+                },
+
+                // when window width is <= 999px
+                1600: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 0
+                }
+            }
+        });
+    </script>
 
 </body>
 
