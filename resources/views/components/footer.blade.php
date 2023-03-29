@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="footer__widget">
-                            <h2 class="footer__widget--title h3 text-white">العربية للعود
-                                <button class="footer__widget--button style3" aria-label="footer widget button">
+                            <h2 class="footer__widget--title h3 text-white">الخليجية للعود
+                                <button class="footer__widget--button" aria-label="footer widget button">
                                     <svg class="footer__widget--title__arrowdown--icon"
                                         xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394"
                                         viewBox="0 0 10.355 6.394">
@@ -65,7 +65,7 @@
                     <div class="col-lg-3 col-md-3">
                         <div class="footer__widget">
                             <h2 class="footer__widget--title h3 text-white">خدمات العملاء
-                                <button class="footer__widget--button style3" aria-label="footer widget button">
+                                <button class="footer__widget--button " aria-label="footer widget button">
                                     <svg class="footer__widget--title__arrowdown--icon"
                                         xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394"
                                         viewBox="0 0 10.355 6.394">
@@ -91,7 +91,7 @@
                      <div class="col-lg-3 col-md-3">
                         <div class="footer__widget">
                             <h2 class="footer__widget--title h3 text-white">لك
-                                <button class="footer__widget--button style3" aria-label="footer widget button">
+                                <button class="footer__widget--button " aria-label="footer widget button">
                                     <svg class="footer__widget--title__arrowdown--icon"
                                         xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394"
                                         viewBox="0 0 10.355 6.394">
@@ -114,7 +114,7 @@
                     <div class="col-lg-3 col-md-7">
                         <div class="footer__widget">
                             <h2 class="footer__widget--title  h3  text-white">النشرة البريدية
-                                <button class="footer__widget--button style3" aria-label="footer widget button">
+                                <button class="footer__widget--button" aria-label="footer widget button">
                                     <svg class="footer__widget--title__arrowdown--icon"
                                         xmlns="http://www.w3.org/2000/svg" width="12.355" height="8.394"
                                         viewBox="0 0 10.355 6.394">

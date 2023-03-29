@@ -7016,7 +7016,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .footer__widget--title__arrowdown--icon {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 38%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
