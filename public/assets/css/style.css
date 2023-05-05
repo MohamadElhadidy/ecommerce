@@ -3405,7 +3405,7 @@ body.overlay__active::before,
   position: absolute;
   z-index: 9;
   top: 100%;
-  left: 0;
+  right: 0;
   visibility: hidden;
   width: 220px;
   margin: 0;
@@ -3439,12 +3439,11 @@ body.overlay__active::before,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+
   width: 100%;
   margin: 0;
   margin-top: 20px;
-  padding: 25px;
+  padding: 25px 20px;
   list-style: none;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -3454,6 +3453,7 @@ body.overlay__active::before,
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  flex-direction: column;
 }
 
 .header__mega--menu__li {
@@ -3876,7 +3876,7 @@ input[type="number"]::-webkit-outer-spin-button {
     3. Slider css
 */
 .home1__slider--bg {
-  background: url(../img/slider/home1-slider1.png);
+  /* background: url(../img/slider/home1-slider1.png); */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -3889,33 +3889,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 
-.home1__slider--bg.two {
-  background: url(../img/slider/home1-slider2.png);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
 
-@media only screen and (max-width: 767px) {
-  .home1__slider--bg.two {
-    background-position: 0%;
-  }
-}
-
-.home1__slider--bg.three {
-  background: url(../img/slider/home1-slider3.png);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
-
-@media only screen and (max-width: 767px) {
-  .home1__slider--bg.three {
-    background-position: 0%;
-  }
-}
 
 .hero__slider--items {
   position: relative;

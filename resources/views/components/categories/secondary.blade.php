@@ -16,7 +16,7 @@
                             </div>
                             <div class="swiper swiper_category col-8">
                                 <div class="swiper-wrapper">
-                                    <div class=" mb-30 swiper-slide ">
+                                    {{-- <div class=" mb-30 swiper-slide ">
                                       <x-item />
                                   </div>
                                   <div class=" mb-30 swiper-slide">
@@ -30,7 +30,7 @@
                                   </div>
                                    <div class=" mb-30 swiper-slide">
                                       <x-item />
-                                  </div>
+                                  </div> --}}
                                 </div>
                                 <div class="swiper-pagination "></div>
                             </div>

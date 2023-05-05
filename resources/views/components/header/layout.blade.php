@@ -3,7 +3,7 @@
 
         <x-header.sticky/>
 
-        <x-header.main/>
+        <x-header.nav/>
 
         <x-header.mobile/>
 

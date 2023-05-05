@@ -9,23 +9,13 @@
                   <div class="product__section--inner">
                       <div class="swiper swiper_sales">
                           <div class="swiper-wrapper col-12 mb-16">
+                              @foreach ($products as $product)
                                   <div class=" mb-30 swiper-slide ">
-                                      <x-item />
+                                      <x-item :product="$product" />
                                   </div>
-                                  <div class=" mb-30 swiper-slide">
-                                      <x-item />
-                                  </div>
-                                  <div class=" mb-30 swiper-slide ">
-                                      <x-item />
-                                  </div>
-                                  <div class=" mb-30 swiper-slide ">
-                                      <x-item />
-                                  </div>
-                                   <div class=" mb-30 swiper-slide">
-                                      <x-item />
-                                  </div>
-                                </div>
-                                <div class="swiper-pagination "></div>
+                              @endforeach
+                          </div>
+                          <div class="swiper-pagination "></div>
                       </div>
                   </div>
               </div>
