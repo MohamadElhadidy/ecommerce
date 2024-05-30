@@ -1,0 +1,3 @@
+.top-bar:hover .animate-slide{
+    animation-play-state: paused;
+}
